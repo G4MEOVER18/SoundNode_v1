@@ -1,0 +1,4 @@
+[Bluetooth A2DP] ---> [PCM Ring Buffer] ---> [Audio Output]
+         ^                    ^
+         |                    |
+       [UI]        [MP3 Decode from SD Playlist]

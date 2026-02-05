@@ -1,0 +1,17 @@
+# ESP-IDF build output
+build/
+**/build/
+sdkconfig
+sdkconfig.old
+managed_components/
+
+# secrets (never commit)
+secrets/
+*.key
+*.pem
+*.p12
+.env
+
+# OS junk
+.DS_Store
+Thumbs.db

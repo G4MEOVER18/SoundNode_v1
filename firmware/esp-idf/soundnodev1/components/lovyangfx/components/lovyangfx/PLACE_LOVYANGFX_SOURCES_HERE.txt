@@ -1,0 +1,2 @@
+Lege hier den Inhalt des LovyanGFX Repos ab (als ESP-IDF Component).
+Diese ZIP enthält die Quellen nicht.

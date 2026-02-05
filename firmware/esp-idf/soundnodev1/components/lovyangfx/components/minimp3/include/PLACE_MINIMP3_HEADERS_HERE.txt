@@ -1,0 +1,2 @@
+Lege hier `minimp3.h` und `minimp3_ex.h` ab.
+Diese ZIP enthält die Header nicht.
