@@ -18,3 +18,9 @@ Open a terminal in `firmware/esp-idf/soundnodev1`:
 ## Note about build artifacts
 The original `build/` directory was excluded to avoid Windows “path too long” issues and large generated files.
 It is safe to regenerate with `idf.py build`.
+
+---
+
+## Kontakt
+
+**Entwickler:** Yanis Ameseder · **E-Mail:** [g4me.over.18@gmail.com](mailto:g4me.over.18@gmail.com)
