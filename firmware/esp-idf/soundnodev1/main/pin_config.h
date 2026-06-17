@@ -19,6 +19,14 @@ static constexpr int RG_TFT_RST_PIN  = -1;   // viele Boards haben Reset fest ve
 // (Du hast aktuell mit 4/5 experimentiert -> genau hier einstellen)
 static constexpr int RG_TFT_ROT = 4;
 
+// ====================== SD-Karte (VSPI) ======================
+// CYD-typische SD-Belegung (eigener CS, MISO für Kartenlesung). Bei
+// abweichender Hardware hier anpassen — am Gerät verifizieren.
+static constexpr gpio_num_t RG_SD_SCK_PIN  = GPIO_NUM_18;
+static constexpr gpio_num_t RG_SD_MOSI_PIN = GPIO_NUM_23;
+static constexpr gpio_num_t RG_SD_MISO_PIN = GPIO_NUM_19;
+static constexpr gpio_num_t RG_SD_CS_PIN   = GPIO_NUM_5;
+
 // ====================== Touch (XPT2046) ======================
 // Touch ist am selben SPI-Bus, eigener CS + optional IRQ
 

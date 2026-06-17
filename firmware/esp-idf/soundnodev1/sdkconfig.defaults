@@ -1,7 +1,12 @@
-# --- Bluetooth Classic enabled ---
+# --- Bluetooth Classic (BR/EDR) + A2DP enabled ---
 CONFIG_BT_ENABLED=y
 CONFIG_BT_CLASSIC_ENABLED=y
 CONFIG_BT_BLE_ENABLED=n
+CONFIG_BT_A2DP_ENABLE=y
+# A2DP (Audio) benötigt BR/EDR – Controller-Modus weg von BLE_ONLY
+CONFIG_BTDM_CTRL_MODE_BLE_ONLY=n
+CONFIG_BTDM_CTRL_MODE_BR_EDR_ONLY=y
+CONFIG_BTDM_CTRL_MODE_BTDM=n
 
 # More stack for BT + UI
 CONFIG_MAIN_TASK_STACK_SIZE=8192
